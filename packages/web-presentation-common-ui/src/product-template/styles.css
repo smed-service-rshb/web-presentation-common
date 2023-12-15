@@ -1,0 +1,307 @@
+.product-template {
+    margin: 15px 0 0;
+    table-layout: fixed;
+    width: 100%;
+}
+.product-template-wrapper {
+    background-color: #f6f6f6;
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.product-template-type.width50 {
+    vertical-align: top;
+}
+.width50 .product-template {
+    margin: 0;
+}
+.product-template-image {
+    display: inline-block;
+    vertical-align: top;
+}
+.product-template-image.product-template-icon-size-normal {
+    min-width: 100px;
+    width: 146px;
+}
+.product-template-image.product-template-icon-size-small {
+    min-width: 53px;
+    width: 53px;
+}
+.product-template-image-container {
+    margin-right: 5px;
+    position: relative;
+    text-align: center;
+}
+.product-template-icon-size-normal .product-template-image-container {
+    width: 146px;
+}
+.product-template-icon-size-small .product-template-image-container {
+    width: 46px;
+}
+.product-template-image-container-outline {
+    background: #fff;
+    margin: 0 auto 2px;
+}
+.product-template-icon-size-normal .product-template-image-container-outline,
+.product-template-icon-size-normal .product-template-image-container-icon-type {
+    height: 93px;
+    width: 146px;
+}
+.product-template-icon-size-small .product-template-image-container-outline,
+.product-template-icon-size-small .product-template-image-container-icon-type {
+    height: 46px;
+    width: 46px;
+}
+.product-template-image-container-outline-blue {
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+.product-template-image-container-outline-lightBlue {
+    border-radius: 5px;
+    border: 2px solid lightblue;
+}
+.product-template-image-container-outline-green {
+    border-radius: 5px;
+    border: 2px solid green;
+}
+.product-template-image-container-outline-orange {
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+.product-template-image-container-outline-pink {
+    border-radius: 5px;
+    border: 2px solid pink;
+}
+.product-template-image-container-outline-red {
+    border-radius: 5px;
+    border: 2px solid red;
+}
+.product-template-image-container-outline-violet {
+    border-radius: 5px;
+    border: 2px solid violet;
+}
+.product-template-image-container-outline-gray {
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.product-template-image-container-outline-card {
+    border-radius: 5px;
+    border: 2px solid #14502e;
+}
+.product-template-image-container-outline-deposit {
+    border-radius: 5px;
+    border: 2px solid #ec44a3;
+}
+.product-template-image-container-outline-savings-account {
+    border-radius: 5px;
+    border: 2px solid #301268;
+}
+.product-template-image-container-outline-account {
+    border-radius: 5px;
+    border: 2px solid #c7642a;
+}
+.product-template-image-container-outline-loan {
+    border-radius: 5px;
+    border: 2px solid #044260;
+}
+.product-template-image-container-icon-type-accountCumulative {
+    background: url("./icons/account.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-accountCard {
+    background: url("./icons/card-no-logo.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-accountCurrent {
+    background: url("./icons/account.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-cardMC {
+    background: url("./icons/card-no-logo.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-cardVC {
+    background: url("./icons/card-no-logo.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-cardMIR {
+    background: url("./icons/card-no-logo.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-cardUP {
+    background: url("./icons/card-no-logo.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-cardUNIVERSAL {
+    background: url("./icons/card-no-logo.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-deposit {
+    background: url("./icons/deposit.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-insurance {
+    background: url("./icons/insurance.png") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-loan {
+    background: url("./icons/loan.svg") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-icon-type-service {
+    background: url("./icons/service.png") no-repeat center center;
+    background-size: contain;
+}
+.product-template-image-container-mark {
+    height: 31px;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    width: 31px;
+}
+.product-template-image-container-mark-package {
+    background: url("icons/package.png") no-repeat 0 0;
+    background-size: contain;
+}
+.product-template-image-container-label {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 9px;
+    padding: 4px 5px;
+    position: relative;
+
+}
+.product-template-image-container-red {
+    background: #f8e0e3;
+    color: #dd223d;
+}
+.product-template-image-container-gray {
+    border: 1px solid #bcbcbc;
+    background: #f4f4f4;
+    color: #888;
+    padding: 2px 5px;
+}
+.product-template-image-container-green {
+    background: #e5f4ea;
+}
+.product-template-image-container-label-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.product-template-image-container-label-text .hint-container {
+    margin: 0;
+}
+.product-template-image-container-label-text .hint-container-title {
+    border-bottom: none;
+    display: block;
+    font-size: 9px;
+    margin-top: 2px;
+    max-width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-template-image-container-green .hint-container-title,
+.product-template-image-container-green .hint-container {
+    color: #039035;
+}
+.product-template-image-container-gray .hint-container-title,
+.product-template-image-container-gray .hint-container {
+    color: #888;
+}
+.product-template-image-container-red .hint-container-title,
+.product-template-image-container-red .hint-container {
+    color: #dd223d;
+}
+.product-template td + td {
+    width: auto;
+}
+.product-template-data {
+    display: inline-block;
+    margin-left: 20px;
+    width: 534px;
+    vertical-align: top;
+}
+.product-template-type.width50 .product-template-data {
+    width: 395px;
+}
+.product-template-type.width50 .product-template-icon-size-small + .product-template-data {
+    width: 345px;
+}
+.product-template-data-item {
+    font-size: 14px;
+    line-height: 24px;
+}
+.flex-text {
+    font-size: 16px;
+    white-space: nowrap;
+}
+.product-template-data-item-details {
+    color: #656565;
+    padding-right: 3px;
+}
+.product-template-actions {
+    display: inline-block;
+    padding-left: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 150px;
+}
+.product-template-actions .buttons {
+    margin: 0;
+}
+.product-template-actions-item .dropdown-list {
+    text-align: left;
+}
+.product-template-actions-item button:first-child {
+    margin-bottom: 20px;
+}
+.product-text {
+    line-height: 24px;
+}
+.product-text-wrapper{
+    display: block;
+    line-height: 1.5;
+    width: 534px;
+}
+.product-text.product-text-table {
+    width: 534px;
+}
+.product-text-table-cell {
+    display: table-cell;
+}
+.product-text-main {
+    overflow: hidden;
+    padding-bottom: 10px;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    width: 372px;
+}
+.product-text-second {
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
+}
+.product-text-table .product-text-table-cell.nowrap {
+    white-space: nowrap;
+}
+.product-text-table .product-text-table-cell.nowrap .product-text {
+    line-height: 17px;
+}
+.product-text-right {
+    text-align: right;
+}
+.product-text-right .product-template-data-item-details {
+    white-space: nowrap;
+    padding: 0;
+}
+.product-text-table-cell-name .link {
+    display: inline;
+}
+.product-amount {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}

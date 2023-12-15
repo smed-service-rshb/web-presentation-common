@@ -1,0 +1,28 @@
+{
+  "name": "@efr/medservice-web-presentation-common-ui",
+  "version": "1.0.0-smed",
+  "description": "Набор общих ui-компонентов презентационного слоя. Версия \"РСХБ-Страхование жизни\"",
+  "main": "src/index.js",
+  "scripts": {
+    "styleguide": "styleguidist server",
+    "lint": "run-liter"
+  },
+  "dependencies": {
+    "@efr/medservice-web-presentation-common-utilities": "^1.0.0-smed"
+  },
+  "devDependencies": {
+    "@efr/medservice-eslint-config-react": "15.0.0-smed",
+    "@efr/medservice-react-dependencies": "15.0.0-smed",
+    "@efr/medservice-react-test": "15.0.0-smed",
+    "@efr/medservice-transpiler-dependencies": "15.0.0-smed",
+    "@efr/medservice-web-presentation-core": "15.0.0-smed",
+    "@efr/medservice-web-presentation-ui": "15.0.0-smed",
+    "file-loader": "0.11.2",
+    "react-styleguidist": "7.3.7",
+    "webpack": "3.10.0",
+    "whatwg-fetch": "2.0.3"
+  },
+  "publishConfig": {
+    "@efr:registry": "http://coral:18088/repository/efr-presentation-common/"
+  }
+}

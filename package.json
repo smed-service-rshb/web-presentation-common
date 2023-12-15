@@ -1,0 +1,17 @@
+{
+  "name": "web-presentation-common",
+  "description": "Презентационный слой - общие компоненты.",
+  "private": true,
+  "devDependencies": {
+    "lerna": "2.2.0"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap --concurrency=1 --hoist",
+    "test": "run-tests",
+    "build": "exit 0",
+    "lint": "lerna exec -- npm run lint",
+    "ui-app:start:sg": "cd packages/web-presentation-common-ui && npm run styleguide",
+    "clean": "lerna exec -- rimraf node_modules && rimraf output && rimraf node_modules",
+    "publish": "lerna publish --force-publish=*"
+  }
+}
